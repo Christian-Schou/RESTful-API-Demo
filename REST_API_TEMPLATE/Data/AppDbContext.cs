@@ -19,8 +19,9 @@ namespace REST_API_TEMPLATE.Data
             builder.Entity<Book>()
                 .HasOne(x => x.Author)
                 .WithMany(x => x.Books);
-        }
 
+            // Seed database with authors and books for demo
+            new DbInitializer(builder).Seed();
+        }
     }
 }
-

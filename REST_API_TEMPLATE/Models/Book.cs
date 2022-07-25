@@ -9,7 +9,7 @@
         public Genre? Genre { get;set; }
         public string? Publisher { get; set; }
         public string? ISBN { get; set; }
-        public int? Rating { get; set; }
+        public double? Rating { get; set; }
         public DateTime ReleaseDate { get; set; }
 
         // One-to-many relation with author

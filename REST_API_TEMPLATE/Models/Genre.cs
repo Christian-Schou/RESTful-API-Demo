@@ -26,6 +26,7 @@
         Travel,
         How_to,
         Families_Relationships,
-        Humor
+        Humor,
+        Biography
     }
 }
