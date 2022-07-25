@@ -10,6 +10,6 @@ namespace REST_API_TEMPLATE.Models
         public DateTime? DateOfBirth { get; set; }
 
         // One-to-many relationship with books
-        public List<Book>? Books { get; set; }
+        public List<Book>? Books { get; set; } = new List<Book>();
     }
 }

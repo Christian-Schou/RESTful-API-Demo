@@ -1,7 +1,10 @@
-﻿namespace REST_API_TEMPLATE.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace REST_API_TEMPLATE.Models
 {
     public class Book
     {
+        [Key]
         public Guid Id { get; set; }
         public string? Title { get; set; }
         public string? Subtitle { get; set; }
